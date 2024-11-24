@@ -298,7 +298,7 @@
 
         dustbins.forEach(dustbin => {
             const fillLevel = fillLevels[dustbin.id];
-            let iconUrl = fillLevel < 70 ? 'assets/green.png' : 'assets/download.png';
+            let iconUrl = fillLevel < 70 ? 'https://cdn-icons-png.freepik.com/256/8079/8079796.png?ga=GA1.1.2025384137.1729537570&semt=ais_hybrid' : 'https://cdn-icons-png.freepik.com/256/17509/17509145.png?ga=GA1.1.2025384137.1729537570&semt=ais_hybrid';
 
             const marker = new google.maps.Marker({
                 position: { lat: dustbin.lat, lng: dustbin.lng },
